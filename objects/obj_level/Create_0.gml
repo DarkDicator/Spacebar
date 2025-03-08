@@ -20,7 +20,8 @@ available_space = [
 ]
 
 money = 0
-target_money = 10
-minute = 1
-seconds = 40
+target_money = 5 + (5 * obj_game.day)
+time = 70 + (10 * obj_game.day)
+minute = floor(time / 60)
+seconds = time % 60
 alarm[0] = game_get_speed(gamespeed_fps)

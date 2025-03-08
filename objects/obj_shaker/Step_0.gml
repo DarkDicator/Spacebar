@@ -17,7 +17,7 @@ if(keyboard_check_pressed(ord("2"))){
 	target_y = 30
 }
 if(keyboard_check_pressed(ord("3"))){
-	target_x = 280
+	target_x = 340
 	target_y = 30
 }
 if(keyboard_check_pressed(ord("4"))){

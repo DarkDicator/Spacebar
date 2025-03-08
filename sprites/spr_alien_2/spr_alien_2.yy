@@ -2,7 +2,7 @@
   "$GMSprite":"",
   "%Name":"spr_alien_2",
   "bboxMode":2,
-  "bbox_bottom":60,
+  "bbox_bottom":55,
   "bbox_left":12,
   "bbox_right":90,
   "bbox_top":18,

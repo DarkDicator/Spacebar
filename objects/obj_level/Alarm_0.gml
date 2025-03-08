@@ -8,4 +8,8 @@ if (seconds < 0){
 	minute -= 1
 }
 
+if (minute <= 0 and seconds <= 0){
+	room_restart()
+}
+
 alarm[0] = game_get_speed(gamespeed_fps)

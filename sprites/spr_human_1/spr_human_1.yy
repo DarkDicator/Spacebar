@@ -2,7 +2,7 @@
   "$GMSprite":"",
   "%Name":"spr_human_1",
   "bboxMode":2,
-  "bbox_bottom":68,
+  "bbox_bottom":64,
   "bbox_left":18,
   "bbox_right":75,
   "bbox_top":21,

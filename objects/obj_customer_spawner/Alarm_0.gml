@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-alarm[0] = 450
+alarm[0] = customer_timer
 if(array_length(obj_level.available_space) == 0) return
 show_debug_message(obj_level.available_space)
 var _space_index = irandom_range(0, array_length(obj_level.available_space) - 1)
