@@ -1,16 +1,18 @@
 /// @description Insert description here
 // You can write your code in this editor
+if(drink != undefined) return
 
-
+show_debug_message(inserted)
 for(var _i = 0; _i <= array_length(recipes) - 1; _i++){
 	if(drink != undefined) break
 	var _recipe = recipes[_i]
 	var _found = true
-	for(var _j = 0; _j < array_length(keys) - 1; _j++){
+	for(var _j = 0; _j <= array_length(keys) - 1; _j++){
 		if(inserted[$ keys[_j]] != _recipe[$ keys[_j]]) {
 			_found = false
 			break
 		}
+		
 	}
 	
 	if (_found) drink = _recipe

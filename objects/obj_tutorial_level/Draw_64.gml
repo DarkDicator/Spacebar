@@ -5,6 +5,3 @@ draw_sprite_ext(spr_money_bar, 0, 24, 32, clamp(money, 0, target_money) / target
 draw_sprite(spr_money_bar_border, 0, 10, 32)
 
 draw_text(80, 15, string(money) + "/" + string(target_money))
-var _time = string(minute) + ":" + (seconds >= 10 ? string(seconds) : "0" + string(seconds))
-draw_text(80, 80, _time)
-draw_text(room_width + 750, 15, "Day " + string(obj_game.day))
