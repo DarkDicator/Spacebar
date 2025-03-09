@@ -56,6 +56,7 @@
     {"id":{"name":"obj_recipe_sheet","path":"objects/obj_recipe_sheet/obj_recipe_sheet.yy",},},
     {"id":{"name":"obj_recipe","path":"objects/obj_recipe/obj_recipe.yy",},},
     {"id":{"name":"obj_red","path":"objects/obj_red/obj_red.yy",},},
+    {"id":{"name":"obj_resolution","path":"objects/obj_resolution/obj_resolution.yy",},},
     {"id":{"name":"obj_right_arrow","path":"objects/obj_right_arrow/obj_right_arrow.yy",},},
     {"id":{"name":"obj_shaker","path":"objects/obj_shaker/obj_shaker.yy",},},
     {"id":{"name":"obj_start_day","path":"objects/obj_start_day/obj_start_day.yy",},},
@@ -70,6 +71,7 @@
     {"id":{"name":"obj_yellow","path":"objects/obj_yellow/obj_yellow.yy",},},
     {"id":{"name":"rm0_ending","path":"rooms/rm0_ending/rm0_ending.yy",},},
     {"id":{"name":"rm0_level","path":"rooms/rm0_level/rm0_level.yy",},},
+    {"id":{"name":"rm0_resolution","path":"rooms/rm0_resolution/rm0_resolution.yy",},},
     {"id":{"name":"rm0_title","path":"rooms/rm0_title/rm0_title.yy",},},
     {"id":{"name":"rm0_tutorial","path":"rooms/rm0_tutorial/rm0_tutorial.yy",},},
     {"id":{"name":"seq_tutorial_2","path":"sequences/seq_tutorial_2/seq_tutorial_2.yy",},},
@@ -132,6 +134,7 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"rm0_resolution","path":"rooms/rm0_resolution/rm0_resolution.yy",},},
     {"roomId":{"name":"rm0_title","path":"rooms/rm0_title/rm0_title.yy",},},
     {"roomId":{"name":"rm0_level","path":"rooms/rm0_level/rm0_level.yy",},},
     {"roomId":{"name":"rm0_tutorial","path":"rooms/rm0_tutorial/rm0_tutorial.yy",},},
