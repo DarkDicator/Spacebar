@@ -9,7 +9,7 @@ if(is_held){
 	target_y = mouse_y
 }
 if(keyboard_check_pressed(ord("1"))){
-	target_x = 10
+	target_x = 15
 	target_y = 55
 }
 if(keyboard_check_pressed(ord("2"))){
@@ -27,6 +27,7 @@ if(keyboard_check_pressed(ord("4"))){
 
 if(keyboard_check_released(ord("1")) or keyboard_check_released(ord("2")) or keyboard_check_released(ord("3")) or keyboard_check_released(ord("4")) or !mouse_check_button_released(0)){
 	is_held = false
+	obj_game.is_mouse_holding = false
 	target_x = original_x
 	target_y = original_y
 }
